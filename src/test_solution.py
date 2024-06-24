@@ -1,5 +1,5 @@
-import pytest, os, sys, tempfile, mock, json
-from flask import Flask
+import pytest, os, sys, tempfile, mock, json # type: ignore
+from flask import Flask # type: ignore
 
 @pytest.fixture
 def client():
